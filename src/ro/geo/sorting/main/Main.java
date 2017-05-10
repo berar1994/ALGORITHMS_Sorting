@@ -3,6 +3,7 @@ package ro.geo.sorting.main;
 import java.util.Scanner;
 
 import ro.geo.sorting.bubblesort.BubblesortMain;
+import ro.geo.sorting.insertionsort.InsertionsortMain;
 
 public class Main {
 
@@ -22,6 +23,7 @@ public class Main {
 		case 3:
 			break;
 		case 4:
+			InsertionsortMain.run();
 			break;
 		case 5:
 			break;
