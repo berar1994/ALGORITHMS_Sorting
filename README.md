@@ -1,4 +1,4 @@
-# ALGORITHMS_Sorting
+# Sorting Algorithms
 Bubblesort, Quicksort, Mergesort, Insertionsort, Shellsort
 
 1. Bubblesort
