@@ -3,7 +3,7 @@ Bubblesort, Quicksort, Mergesort, Insertionsort, Shellsort
 
 # How to import in Eclipse
  - create folder on a desired location<br>
- - clone the repository<br>
+ - clone the repository in this folder<br>
  - open Eclipse -> File -> New -> Java Project<br>
  - uncheck the 'Use default location' box and browse for your created folder<br>
  - Eclipse is smart enough to know how to create a project from src folder<br>
