@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import ro.geo.sorting.bubblesort.BubblesortMain;
 import ro.geo.sorting.insertionsort.InsertionsortMain;
+import ro.geo.sorting.quicksort.QuickSortMain;
 
 public class Main {
 
@@ -19,6 +20,7 @@ public class Main {
 			BubblesortMain.run();
 			break;
 		case 2:
+			QuickSortMain.run();
 			break;
 		case 3:
 			break;
