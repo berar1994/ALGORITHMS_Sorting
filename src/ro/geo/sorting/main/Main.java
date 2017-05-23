@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import ro.geo.sorting.bubblesort.BubblesortMain;
 import ro.geo.sorting.insertionsort.InsertionsortMain;
+import ro.geo.sorting.mergesort.MergeSortMain;
 import ro.geo.sorting.quicksort.QuickSortMain;
 
 public class Main {
@@ -23,6 +24,7 @@ public class Main {
 			QuickSortMain.run();
 			break;
 		case 3:
+			MergeSortMain.run();
 			break;
 		case 4:
 			InsertionsortMain.run();
@@ -33,6 +35,8 @@ public class Main {
 			System.out.println("No option selected");
 			break;
 		}
+		
+		sc.close();
 		
 	}
 
