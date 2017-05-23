@@ -21,4 +21,7 @@ Bubblesort, Quicksort, Mergesort, Insertionsort, Shellsort
     it there. It repeats until no input elements remain.<br>
 3. Quick sort<br>
     * is a divide and conquer algorithm; first divides a large array into two smaller sub-arrays: the low elements and the high elements<br> 
-    * recursively sort the sub-arrays.
+    * recursively sort the sub-arrays.<br>
+4. Merge sort<br>
+    * divide the unsorted list into n sublists, each containing 1 element (a list of 1 element is considered sorted)<br>
+    * repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list<br>
