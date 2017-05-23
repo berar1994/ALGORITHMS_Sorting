@@ -11,7 +11,7 @@ public class BubblesortMain {
 		System.out.println("Unsorted:");
 		ConsoleUtil.printArray(array);
 		
-		Bubblesort.sort(array);
+		BubbleSort.sort(array);
 		
 		System.out.println("Sorted:");
 		ConsoleUtil.printArray(array);

@@ -1,6 +1,6 @@
 package ro.geo.sorting.bubblesort;
 
-public class Bubblesort {
+public class BubbleSort {
 	
 	public static void sort(Integer[] unsorted){
 		for(int i = 1; i < unsorted.length; i++){

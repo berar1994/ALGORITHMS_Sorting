@@ -1,6 +1,6 @@
 package ro.geo.sorting.insertionsort;
 
-public class Insertionsort {
+public class InsertionSort {
 	
 	public static void sort(Integer[] unsortedArray){
 		for(int i = 1; i < unsortedArray.length; i++){

@@ -11,7 +11,7 @@ public class InsertionsortMain {
 		System.out.println("Unsorted:");
 		ConsoleUtil.printArray(array);
 		
-		Insertionsort.sort(array);
+		InsertionSort.sort(array);
 		
 		System.out.println("Sorted:");
 		ConsoleUtil.printArray(array);
