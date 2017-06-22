@@ -3,9 +3,10 @@ package ro.geo.sorting.main;
 import java.util.Scanner;
 
 import ro.geo.sorting.bubblesort.BubblesortMain;
-import ro.geo.sorting.insertionsort.InsertionsortMain;
+import ro.geo.sorting.insertionsort.InsertionSortMain;
 import ro.geo.sorting.mergesort.MergeSortMain;
 import ro.geo.sorting.quicksort.QuickSortMain;
+import ro.geo.sorting.shellsort.ShellSortMain;
 
 public class Main {
 
@@ -27,9 +28,10 @@ public class Main {
 			MergeSortMain.run();
 			break;
 		case 4:
-			InsertionsortMain.run();
+			InsertionSortMain.run();
 			break;
 		case 5:
+			ShellSortMain.run();
 			break;
 		default:
 			System.out.println("No option selected");
